@@ -19,7 +19,7 @@ def searchOftenMeetsWord():
         count = max(dic.values())  # Находим максимальное значение в словаре
         for key in dic.keys():  # Ищем ключи, значение по которым равно максимальному значению в словаре
             if dic[key] == count:
-                print(count, " - ", key)
+                print(f"{count} - {key}")
         searchOftenMeetsWord()
 
 
