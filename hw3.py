@@ -7,8 +7,8 @@
 
 def searchOftenMeetsWord():
     seq = input("Enter  sequence: ").lower().split()  # Преобразование строки в список
-    if not seq:
-        exit()
+    if not seq:  # проверка наполнения строки
+        exit()  # выход в случае пустой строки
     else:
         dic = dict()
         for i in seq:  # Наполнение словаря
