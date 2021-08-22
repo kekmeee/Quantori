@@ -1,5 +1,5 @@
 from exif import Image
-from hw16_function import gps_location_view
+from hw16 import gps_location_view
 import os
 
 
