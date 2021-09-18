@@ -10,7 +10,7 @@ def gps_location_view(latitude, longitude):
 
 
 if __name__ == "__main__":
-    with open("tmp/input.txt", "r") as inp:
+    with open("../tmp/input.txt", "r") as inp:
         for i in inp:
             lat = ''.join(i.split(";")[0])
             lon = ''.join(i.split(";")[-1][:-1])

@@ -22,7 +22,7 @@ class Employee:
 # используя модуль pickle, записываем созданный объект в файл alice.pickle как последовательность байт
 if __name__ == "__main__":
     alice = Employee("Alice", "DevOps", 10000)
-    with open('tmp/alice.pickle', 'wb') as a:
+    with open('../tmp/alice.pickle', 'wb') as a:
         pickle.dump(alice, a)
 # После этого можно запустить файл hw14_other.py, в котором выполняется чтение файла alice.pickle
 # и преобразование байтов обратно в объект класса Employee
